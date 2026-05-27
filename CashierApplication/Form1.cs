@@ -44,6 +44,16 @@ namespace CashierApplication
                 label7.Text = "Change: " + item.getChange().ToString("F2");
             }
         }
+        private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 loginForm = new Form2();
+            loginForm.Show();
+            this.Hide();
+        }
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            
+        }
 
         private void label5_Click(object sender, EventArgs e)
         {
@@ -74,6 +84,13 @@ namespace CashierApplication
         {
 
         }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        
     }
 }
 
